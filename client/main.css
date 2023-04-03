@@ -1,0 +1,63 @@
+        body {
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .header {
+            background: black;
+            color: white;
+            padding: 10px;
+            height: 5vh;
+        }
+        
+        .card {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .taskForm {
+            width: 35vw;
+            /* border: 1px solid black; */
+            padding: 4px 2px 4px 2px;
+            box-shadow: 0px 0px 3px 1px #888282;
+            margin: 30px 0 2px 0;
+        }
+        
+        .taskForm input {
+            width: 30vw;
+            height: 2em;
+            margin: 2px;
+        }
+        
+        .taskForm button {
+            height: 2em;
+            margin: 2px;
+        }
+        
+        .taskCard {
+            display: flex;
+            justify-content: space-between;
+            width: 35vw;
+            padding: 4px 2px 4px 2px;
+            margin: 8px 2px 8px 2px;
+            box-shadow: 0px 0px 3px 1px #888282;
+        }
+        
+        .container {
+            position: relative;
+        }
+        
+        .taskCard button {
+            margin-right: 4px;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+        }
+        
+        .taskTitle {
+            border: none;
+            width: 30vw;
+        }
